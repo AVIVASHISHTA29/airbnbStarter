@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css";
-import hotel from "../../assets/hotels/hotel-1.jpeg";
 import StarRateRoundedIcon from "@mui/icons-material/StarRateRounded";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

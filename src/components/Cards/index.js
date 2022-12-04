@@ -1,8 +1,7 @@
 import React from "react";
-import { list } from "../../assets/cards-list";
 import Card from "./card";
 import "./styles.css";
-function Cards() {
+function Cards({ list }) {
   return (
     <div className="cards-flex">
       {list.map((card, i) => (

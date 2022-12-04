@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { links } from "../../assets/images-links";
 import "./styles.css";
 
-function Filter() {
-  const [selectedFilter, setSelectedFilter] = useState();
-
+function Filter({ selectedFilter, setSelectedFilter }) {
   return (
     <div className="filter-div">
       {links.map((item, i) => (
